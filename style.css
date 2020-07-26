@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: bisque;
+    margin: auto;
+    width: 700px;
+    height: 100vh;
+    padding: 3rem;
+}
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo input, .todo button {
+    padding: 1rem;
+    font-size: 1rem;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem;
+    font-size: 1.2rem;
+}
+ul li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+li button {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+.del {
+    background: red;
+}
+.edit {
+    background: green;
+}
